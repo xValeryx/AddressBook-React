@@ -1,0 +1,21 @@
+
+.card_wrapper {
+    border-radius: 8px;
+    border: red;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 10px 5px 10px 5px;
+    border: red;
+    
+}
+
+button {
+    color: aqua;
+    position: absolute;
+    top:  50%;
+    float: right;
+}
