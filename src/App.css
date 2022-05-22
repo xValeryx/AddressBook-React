@@ -34,3 +34,48 @@
   }
 }
 
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+
+}
+.card   {
+  width: 250px;
+  height: fit-content;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgb(222, 215, 215);
+  border-radius: 8px;
+  justify-content: center;
+}
+
+h2 {
+  gap: 10px;
+  color: blue;
+}
+
+.Btn {
+  position: relative;
+
+}
+
+
+button {
+  display: inline-block;
+  color: rgb(96, 86, 230);
+  font-weight: bolder;
+  font-size: large;
+  list-style: none;
+  float: right;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  right: 5%;
+  bottom: 140px;
+  cursor: pointer;
+  
+}
